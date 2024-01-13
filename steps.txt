@@ -1,0 +1,43 @@
+Steps for git best practices , please follow this practices to be profesinal
+
+Step 1: Clone the Repository
+git clone [repository URL]
+
+Step 2: Create a New Branch
+git branch [branch-name]
+
+
+Step 3: Switch to the New Branch
+git checkout [branch-name]
+
+Step 4: Make Changes Locally
+Objective: Edit, add, or delete files in your project.
+Details: Perform the necessary changes in your local files using your preferred code editor or file management tool.
+
+
+Step 5: Stage Changes for Commit 
+git add .  , dot means all files but add only the files you have changed for example if  you modified App.js do the following git add App.js
+
+Step 6: Commit Changes
+Objective: Save your staged changes to the local repository.
+git commit -m "Descriptive commit message"
+
+
+Step 7: Push Changes to Remote usually its main or master in github
+git push origin [branch-name]
+
+Step 8: Create a Pull Request (PR)
+Objective: Merge your branch into the main project (e.g., main or master branch).
+
+Details:
+Go to the repository on GitHub.
+Click 'New pull request'.
+Select your branch and the branch you want to merge into.
+Fill in the PR details and create it.
+
+
+Step 10: Pull Merged Changes
+Objective: Update your local main branch with the merged changes.
+git checkout main
+git pull origin main
+
