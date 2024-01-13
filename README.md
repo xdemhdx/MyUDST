@@ -1,2 +1,0 @@
-# MyUDST
-Capstone Project
